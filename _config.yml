@@ -1,0 +1,19 @@
+# Site settings
+title: XVBA Support
+description: Support site for XVBA
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
